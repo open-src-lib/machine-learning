@@ -1,0 +1,27 @@
+\documentclass[11pt,a4paper]{book}
+\input{preamble}
+\begin{document}
+
+\frontmatter
+% Document Metadata
+\title{Machine Learning}
+\author{Open Source Library}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+\mainmatter{}
+
+\chapter*{License}
+\input{../LICENSE}
+\addcontentsline{toc}{chapter}{License}
+
+\chapter*{Contributors}
+\input{../Contributors}
+\addcontentsline{toc}{chapter}{Contributors}
+
+\chapter{Fundamental Concepts in Machine Learning}
+\input{chapters/fundamental_concepts.tex}
+
+\end{document}
