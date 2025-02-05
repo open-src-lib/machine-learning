@@ -6,7 +6,7 @@
 
 ---
 
-- Types of Machine Learning (also known as Machine Learning Paradigms)
+- Machine Learning Paradigms (also known as Types of Machine Learning)
   - Supervised Learning
   - Unsupervised Learning
   - Semi-supervised Learning
@@ -30,9 +30,12 @@
   - Plotly
   - Statsmodels
   - Scikit-learn (also know as Sklearn)
-  - Imbalanced-learn (imblearn)
+  - Imbalanced-learn (also known as imblearn)
   - Category-encoders
-  - XGBoost, LightGBM, and CatBoost
+  - Gradient Boosting Frameworks
+    - XGBoost
+    - LightGBM
+    - CatBoost
   - Joblib
   - Optuna
   - MLflow
@@ -50,7 +53,8 @@
   - Number of Rows
   - Names of Columns
   - Mean, Median, Standard Deviation, Skewness, Kurtosis of Numerical Features
-  - Columns with Missing Values
+  - Mode of Categorical Features
+  - Features with Missing Values
 
 ---
 
@@ -73,6 +77,7 @@
     ---
 
   - Handling Missing Values
+    - Type of Missing Values (MAR, MCAR, and MNAR) and how to handle each of them separately
     - When to remove or impute missing values
     - Removing
       - Rows
@@ -117,7 +122,9 @@
     ---
 
   - Handling Imbalance Dataset
-
+    - SMOTE (Synthetic Minority Oversampling Technique)
+    - Oversampling and Undersampling
+    - Class Weighting
     ---
 
 - Data Scaling and Normalization
@@ -131,6 +138,10 @@
   - Label Encoding
   - Target Encoding
   - Frequency Encoding
+
+- Curse of Dimensionality
+  - Impact on High-dimensional Datasets
+  - Mitigation Methods (e.g., Feature Selection, Dimensionality Reduction)
 
 - Data Visualization
   - Univariate Analysis
@@ -157,10 +168,14 @@
       - Box Plot
       - Line Plot
       - Bar Plot
+  - Visualizations to Understand Distributions, Correlations, and Outliers
 
 - Feature Engineering:
   - Feature Extraction
   - Feature Scaling
+    - Standardization and Normalization
+    - Scaling vs. Normalization
+    - Techniques: StandardScaler, MinMaxScaler, RobustScaler
   - Feature Construction
   - Feature Transformation
     - Log Transformation
@@ -171,6 +186,9 @@
       - Box-Cox
       - Yeo-Johnson
   - Feature Selection
+  - Feature Transformation
+    - Feature Interaction (Polynomial Features, Crossed Features)
+    - Dimensionality Reduction (PCA, t-SNE, UMAP)
 
 - Machine Learning Algorithms
   - Supervised Learning Algorithms
@@ -278,6 +296,13 @@
       - Adjusted Rand Index (ARI)
       - Normalized Mutual Information (NMI)
 
+- Model Interpretability and Explainability
+  - Feature Importance
+  - SHAP Values (Shapley Additive Explanations)
+  - LIME (Local Interpretable Model-Agnostic Explanations)
+  - Explainability and Interpretability in ML
+
 - Best Practices
 
 - Glossary
+  - Explanation of terms related Machine Learning
